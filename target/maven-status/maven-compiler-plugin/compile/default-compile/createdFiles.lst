@@ -1,0 +1,12 @@
+com\weitao\controller\AdminController.class
+com\weitao\domain\Comments.class
+com\weitao\controller\CommentController.class
+com\weitao\controller\CourseController.class
+com\weitao\service\impl\CommentsServiceImpl.class
+com\weitao\service\CommentsService.class
+com\weitao\service\impl\LessonServiceImpl.class
+com\weitao\controller\LessonController.class
+com\weitao\service\impl\UserServiceImpl.class
+com\weitao\utils\impl\MahoutImpl.class
+com\weitao\controller\UserCourseController.class
+com\weitao\controller\UserLabelController.class

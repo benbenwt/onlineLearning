@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5b3a49cf-da86-436c-a0f0-2b22d3e9c96c" name="Default Changelist" comment="3.10.2020">
+      <change afterPath="$PROJECT_DIR$/../.idea/IdeaProjects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnProject/LearnProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src - 快捷方式.lnk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weitao/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weitao/controller/UserCourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weitao/controller/UserLabelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weitao/dao/AdminMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weitao/dao/UsercourseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weitao/dao/UserlabelMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weitao/domain/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weitao/domain/AdminExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weitao/domain/CommentsKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weitao/domain/Usercourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weitao/domain/UsercourseExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weitao/domain/Userlabel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weitao/domain/UserlabelExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weitao/service/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weitao/service/UserCourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weitao/service/UserLabelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weitao/service/impl/AdminServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weitao/service/impl/LessonServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weitao/service/impl/UserCourseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weitao/service/impl/UserLabelServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weitao/utils/Mahout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weitao/utils/impl/MahoutImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/AdminMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/UsercourseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserlabelMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/back/manageCourse.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/back/manageLesson.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/back/manageUser.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/front/recommend.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/front/userLabel.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/21.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/22.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/23.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/24.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/25.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/26.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/27.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/4.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/updateImage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/uploads/1e375baa6d4740dba26c66187d64071d_WIN_20200511_15_37_57_Pro.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/uploads/3c88ed2ab8a64bbbb2499578e5205b18_WIN_20200511_15_37_57_Pro.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/uploads/50f46893c15042148fe3e9f075c21025_WIN_20200514_10_12_03_Pro.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/uploads/7360e4e76a2f4c03a64874e6f0202b09_Hearthstone Screenshot 10-07-19 22.00.39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/uploads/823d6dd9d1ca4b928b9d15085df92934_Hearthstone Screenshot 10-07-19 22.00.39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/uploads/8bc2d33df1fc4537b24899aa81d95011_WIN_20200511_15_32_54_Pro.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/uploads/9406361bbe2045209a5e1c1f7d2ac471_Hearthstone Screenshot 10-07-19 22.00.39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/uploads/9c7bd42eecf4411d83e5af07b4b357c4_Hearthstone Screenshot 10-07-19 22.00.39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/uploads/b203369dfbb04afea06996f01cf3724d_WIN_20200511_15_32_54_Pro.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/uploads/b57741190fac4480b4842dfa1ce1dde8_WIN_20200514_10_12_03_Pro.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/uploads/db0eb3c6053849ecbf3da2506523fa23_WIN_20200511_15_37_27_Pro.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/uploads/e4d4c52a638b4c608d58457629d333c5_WIN_20200511_15_32_54_Pro.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/uploads/f2826e9192d0497f85d104eb504ec008_Hearthstone Screenshot 10-07-19 22.00.39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/weitao/test/mahoutTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring/.idea/spring.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring/spring.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring01/spring01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring02_bean/spring02_bean.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring03_DI/spring03_DI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring04_anno/spring04_anno.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring05_xmlioc/spring05_xmlioc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring06_annoioc/spring06_annoioc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring07_anno_withoutxml/spring07_anno_withoutxml.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring08_account/spring08_account.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring09_proxy/day09_proxy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring09_springAOP/spring09_springAOP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring10_adviceType/spring10_adviceType.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring11_annotationAOP/spring11_annotationAOP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring12_jdbcTemplate/spring12_jdbcTemplate.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring13_aoptx_xml/spring13_aoptx_xml.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring14_tx/spring14_tx.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springTomcatTest/fafafs.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_mvc/spring_mvc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_quick/.idea/springboot_quick.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_quick/springboot_quick.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc01_start/springmvc01_start.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc02_response/springmvc02_response.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc03_fileupload/spring03_fileupload.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springmvc04_exception/springmvc04_exception.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm/.idea/ssm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ssm/ssm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tmall_ssm/tomcat_ssm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineLearning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_mysql/maven_mysql.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/weitao/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weitao/controller/CommentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/weitao/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weitao/controller/CourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/weitao/controller/LessonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weitao/controller/LessonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/weitao/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weitao/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/weitao/dao/CommentsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weitao/dao/CommentsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/weitao/domain/Comments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weitao/domain/Comments.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/weitao/domain/CommentsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weitao/domain/CommentsExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/weitao/domain/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weitao/domain/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/weitao/domain/Lesson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weitao/domain/Lesson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/weitao/domain/Userinf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weitao/domain/Userinf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/weitao/domain/UserinfExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weitao/domain/UserinfExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/weitao/service/CommentsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weitao/service/CommentsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/weitao/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weitao/service/CourseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/weitao/service/LessonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weitao/service/LessonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/weitao/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weitao/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/weitao/service/impl/CommentsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weitao/service/impl/CommentsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/weitao/service/impl/CourseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weitao/service/impl/CourseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/weitao/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weitao/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/CommentsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/CommentsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/CourseMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/CourseMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserinfMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserinfMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mgb.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mbg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/front/course.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/front/course.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/front/lesson.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/front/lesson.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/front/singleCourse.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/front/singleCourse.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/front/userCenter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/front/userCenter.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/include/filter_course.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/include/filter_course.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/include/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/include/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/lunbo/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/lunbo/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/lunbo/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/lunbo/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/lunbo/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/site/TB1LF0CKFXXXXcAXFXXXXXXXXXX-21-20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/site/alipay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/site/alipay2wei.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/site/buyflow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/site/canvas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/site/cartNotSelected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/site/cartSelected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/site/catear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/site/cateye.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/site/chaoshi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/site/comformPayFlow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/site/confirmOrderTmall.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/site/copyRight1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/site/copyRight2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/site/creditcard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/site/decrease.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/site/eachcategory.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/site/end.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/site/ensure.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/site/gouwujuan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/site/guoji.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/site/increase.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/site/leaveMessage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/site/li_dot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/site/loginBackground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/site/logo.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/site/ma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/site/orderFinish.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/site/orderItemTmall.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/site/paySuccess.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/site/priceBackground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/site/promise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/site/registerSuccess.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/site/renzheng.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/site/reviewLight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/site/simpleLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/site/star/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/site/tmallbuy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/site/wangwang.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/site/wangwang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/site/warning.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/weitao/test/mapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/weitao/test/mapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/weitao/test/mbg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/weitao/test/mbg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weitao/controller/CommentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/weitao/controller/CommentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weitao/controller/CourseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/weitao/controller/CourseController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weitao/controller/LessonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/weitao/controller/LessonController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weitao/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/weitao/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weitao/dao/CommentsMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/weitao/dao/CommentsMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weitao/domain/Comments.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/weitao/domain/Comments.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weitao/domain/CommentsExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/weitao/domain/CommentsExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weitao/domain/CommentsExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/weitao/domain/CommentsExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weitao/domain/CommentsExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/weitao/domain/CommentsExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weitao/domain/Course.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/weitao/domain/Course.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weitao/domain/Lesson.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/weitao/domain/Lesson.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weitao/domain/Userinf.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/weitao/domain/Userinf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weitao/domain/UserinfExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/weitao/domain/UserinfExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weitao/domain/UserinfExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/weitao/domain/UserinfExample$Criterion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weitao/domain/UserinfExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/weitao/domain/UserinfExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weitao/service/CommentsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/weitao/service/CommentsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weitao/service/CourseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/weitao/service/CourseService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weitao/service/LessonService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/weitao/service/LessonService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weitao/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/weitao/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weitao/service/impl/CommentsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/weitao/service/impl/CommentsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weitao/service/impl/CourseServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/weitao/service/impl/CourseServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weitao/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/weitao/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/CommentsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/CommentsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/CourseMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/CourseMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UserinfMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/UserinfMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mgb.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/weitao/test/mapperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/weitao/test/mapperTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/weitao/test/mbg.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/weitao/test/mbg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-03-06" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-03-07" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-03-08" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-03-09" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-03-10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/pages/front/course_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/pages/front/course_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/pages/front/course_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/pages/front/course_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/pages/front/lesson_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/pages/front/lesson_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/pages/front/lesson_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/pages/front/lesson_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/pages/front/singleCourse_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/pages/front/singleCourse_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/pages/front/singleCourse_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/pages/front/singleCourse_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/test_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/test_jsp.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\DevInstall\maven\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\DevInstall\maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectId" id="1YhX5qls1YibOEXoo2TEOyOO5hb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DevInstall\IDEA\IdeaProjects\onlineLearning\src\main\webapp\js" />
+      <recent name="D:\DevInstall\IDEA\IdeaProjects\onlineLearning\src\main\webapp" />
+      <recent name="D:\DevInstall\IDEA\IdeaProjects\onlineLearning\src\main\webapp\WEB-INF" />
+      <recent name="D:\DevInstall\IDEA\IdeaProjects\onlineLearning\src\main\webapp\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DevInstall\IDEA\IdeaProjects\onlineLearning\src\main\webapp" />
+      <recent name="D:\DevInstall\IDEA\IdeaProjects\onlineLearning\src\main\webapp\WEB-INF\pages\include" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+      <command value="mvn clean" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Maven.tomcat7">
+    <configuration name="mahout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.weitao.utils.mahout" />
+      <module name="onlineLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.weitao.utils.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mbg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.weitao.test.mbg" />
+      <module name="onlineLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.weitao.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mahoutTest.testMahout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="onlineLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.weitao.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.weitao.test" />
+      <option name="MAIN_CLASS_NAME" value="com.weitao.test.mahoutTest" />
+      <option name="METHOD_NAME" value="testMahout" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mahoutTest.testMahout1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="onlineLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.weitao.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.weitao.test" />
+      <option name="MAIN_CLASS_NAME" value="com.weitao.test.mahoutTest" />
+      <option name="METHOD_NAME" value="testMahout1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mapperTest.testCRUD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="onlineLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.weitao.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.weitao.test" />
+      <option name="MAIN_CLASS_NAME" value="com.weitao.test.mapperTest" />
+      <option name="METHOD_NAME" value="testCRUD" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tomcat7" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.mbg" />
+      <item itemvalue="Application.mahout" />
+      <item itemvalue="JUnit.mapperTest.testCRUD" />
+      <item itemvalue="JUnit.mahoutTest.testMahout" />
+      <item itemvalue="JUnit.mahoutTest.testMahout1" />
+      <item itemvalue="Maven.tomcat7" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.mbg" />
+        <item itemvalue="JUnit.mahoutTest.testMahout1" />
+        <item itemvalue="JUnit.mapperTest.testCRUD" />
+        <item itemvalue="JUnit.mahoutTest.testMahout" />
+        <item itemvalue="Application.mahout" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5b3a49cf-da86-436c-a0f0-2b22d3e9c96c" name="Default Changelist" comment="" />
+      <created>1583395619301</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583395619301</updated>
+      <workItem from="1601952293169" duration="1268000" />
+    </task>
+    <task id="LOCAL-00001" summary="3.10.2020">
+      <created>1583809689988</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583809689988</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="3.10.2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="3.10.2020" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="363" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1601952302391">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1601952302391" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/com/weitao/domain/Comments.java</url>
+          <line>3</line>
+          <properties field="star" class="com.weitao.domain.Comments" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
